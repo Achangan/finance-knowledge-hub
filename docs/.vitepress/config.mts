@@ -11,6 +11,7 @@ export default defineConfig({
       { text: '理财基础', link: '/guide/finance-basics' },
       { text: '基金', link: '/guide/mutual-funds' },
       { text: '股票', link: '/guide/stock-basics' },
+      { text: '交易实战', link: '/guide/ashare-trading-tactics' },
       { text: '资产配置', link: '/guide/asset-allocation' }
     ],
     sidebar: [
@@ -37,6 +38,14 @@ export default defineConfig({
           { text: '基本面分析（财务三表）', link: '/guide/fundamental-analysis' },
           { text: '估值方法（PE/PB/DCF）', link: '/guide/valuation' },
           { text: '技术分析入门（K 线与形态）', link: '/guide/technical-analysis' }
+        ]
+      },
+      {
+        text: 'A 股交易实战',
+        items: [
+          { text: 'A 股交易技法总览', link: '/guide/ashare-trading-tactics' },
+          { text: '资金流向与龙虎榜跟踪', link: '/guide/capital-flow-tracking' },
+          { text: '仓位管理与止损纪律', link: '/guide/risk-management' }
         ]
       },
       {
