@@ -12,9 +12,16 @@ export default defineConfig({
       { text: '基金', link: '/guide/mutual-funds' },
       { text: '股票', link: '/guide/stock-basics' },
       { text: '交易实战', link: '/guide/ashare-trading-tactics' },
-      { text: '资产配置', link: '/guide/asset-allocation' }
+      { text: '资产配置', link: '/guide/asset-allocation' },
+      { text: '学习日志', link: '/daily/2026-10-19' }
     ],
     sidebar: [
+      {
+        text: '每日学习日志',
+        items: [
+          { text: '2026-10-19', link: '/daily/2026-10-19' }
+        ]
+      },
       {
         text: '理财基础',
         items: [
