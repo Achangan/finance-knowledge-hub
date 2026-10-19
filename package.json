@@ -1,0 +1,14 @@
+{
+  "name": "finance-knowledge-hub",
+  "version": "1.0.0",
+  "private": true,
+  "description": "理财与股票知识库 - Finance & Stock Knowledge Hub",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}
